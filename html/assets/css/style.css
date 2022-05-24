@@ -1,0 +1,56 @@
+/*Selector universal */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Selector por etiquetas*/
+header {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+}
+
+a {
+    font-size: 10px;
+    color: #7D0A42;
+    text-decoration: none;
+}
+
+footer a {
+    color: azure;
+}
+
+/*Selector por identificacion*/
+#principal {
+    border: 5px solid skyblue;
+    padding: 10px;
+    font-style: italic;
+}
+
+#principal img {
+    margin-left: 18%;
+}
+
+#Contenido {
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+
+
+}
