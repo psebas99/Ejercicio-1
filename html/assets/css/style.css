@@ -42,7 +42,7 @@ footer a {
     font-style: italic;
 }
 
-#principal img {
+#primaria {
     margin-left: 18%;
 }
 
@@ -51,6 +51,59 @@ footer a {
     text-decoration: none;
     font-weight: bold;
     margin: 10px;
+}
+#menu {
+    background-color: gray;
 
+}
+#menu ul li {
+    display: block;
+    float: left;
+    border-right: rgb(139, 160, 119) 2px solid;
+}
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: white;
+}
+/*Selector por clase*/
+.clearFix{
+    float: none;
+    clear: both;
 
+}
+/*Selector por pseudoclase*/
+#menu ul li:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#menu ul li:hover a {
+    color: white;
+}
+/*Selector por atributo*/
+#principal form{
+    border: 5px rgb(16, 202, 16) solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#principal form *{
+    display:  inline-block;
+}
+input[type="text"], select {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+select{
+    width: 350px;
+}
+input[type="submit"],button{
+    background:rgb(16, 202, 16);
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform:  uppercase;
+    border: solid black;
+    cursor: pointer;
 }

@@ -13,32 +13,39 @@
             <h1>Pagina Web Titulo <em>Sebastian</em></h1>
         </header>
 
-        <nav>
+        <nav id="menu">
             <ul>
                 <li><a href="./index.html">INICIO</a></li>
                 <li><a href="./servicios.html">SERVICIOS</a></li>
                 <li><a href="./contacto.html">CONTACTO</a></li>
                 <li><a href="./cotizaciones.html">COTIZACIONES</a></li>
+                <div class="clearFix"></div>
             </ul>
         </nav>
         <hr>
-        <div>
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+        <h2 class="subTitulo">Ficha de cotizaciones</h2>
+        <div id="principal">
+            <form action="">
+                <p>
+                    <label for="carne">Carné:</label>
+                    <div>
+                        <input type="text" name="carne">
+                        <button>Buscar</button>
+                    </div>
+                </p>
+                <p>
+                    <label for="clases">Clases:</label>
+                    <select name="clases">
+                        <option value="Seleccionar">Seleccionar</option>
+                        <option value="BCK-JAVA-2021">BackEnd Java</option>
+                        <option value="BCK-DOTNET-2021">BackEnd DotNet Core 3.1</option>
+                        <option value="FRO-ANGULAR-2021">FrontEnd Angular JS</option>
+                        <option value="FRO-REACT-2021">FrontEnd React JS</option>
+                    </select>
+                </p>
+                <input type="submit" value="Registrar">
+
+             </form>
           </div>
         <footer>
             Todos los derechos reservados  &copy; <a href="https://www.youtube.com/watch?v=XdLTngnLGGQ"> Sebastian 2022</a>
