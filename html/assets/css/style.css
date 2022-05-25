@@ -72,6 +72,11 @@ footer a {
     clear: both;
 
 }
+.subTitulo{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 /*Selector por pseudoclase*/
 #menu ul li:hover{
     background-color: blue;
@@ -86,10 +91,18 @@ footer a {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 20px;
+    width: 450px;
+    text-align: right;
+    position:justify;
+    margin-left: 25%;
+    
 }
 #principal form *{
-    display:  inline-block;
+    display:  inline;
+    
 }
+
+
 input[type="text"], select {
     margin-bottom: 15px;
     padding: 10px;
